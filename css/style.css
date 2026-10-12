@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
 #navbar{
     display: flex;
     justify-content: space-between;
@@ -12,10 +16,10 @@
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     padding: 25px 120px;
-    flex-wrap: wrap;
     position: sticky;
     top: 0;
-    z-index: 1;
+    flex-wrap: wrap;
+    z-index: 100;
 }
 h2{
     font-size: 30px;
@@ -146,4 +150,7 @@ button{
 button:hover{
     background-color: rgb(60, 60, 239);
     transition: .3s;
+}
+p{
+    padding: 20px;
 }
